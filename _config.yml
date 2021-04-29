@@ -1,0 +1,141 @@
+# Site Settings
+name: Újmagyar
+title: Újmagyar | Hétköznapi nyelvművelők közössége -=- kommentelni ér, gondolkodni kötelező!
+description: Alakítsuk tudatosan a nyelvünket nap mint nap, mert a nyelvünk alakítja a mindennapjainkat.
+tags:
+  - blog
+  - fórum
+  - forum
+  - közösség
+  - community
+  - nyelv
+  - language
+  - Hunglish
+  - nyelvművelés
+  - nyelvművelő
+  - nyelvművelők
+  - Mézga Család
+  - MZ/X
+  - Mézga Aladár
+  - Paula
+  - Mézga Kriszta
+  - Mézga Géza
+  - Máris szomszéd
+  - Blöki
+  - Maffia
+  - Kompót
+  - Öcsi
+  - köbüki
+  - újmagyar nyelv
+  - gondolatátvivő kézi készülék
+  - időkibővítő
+  - fényposta
+  - Hufnágel Pisti
+  - egy forintért megmondom
+  - Romhányi József
+  - nyelvújítás
+  - hétköznapi
+  - mindennapi
+  - Álljunk meg egy szóra
+  - Grétsy László
+  - Kazinczy Ferenc
+  - Bessenyei György
+  - nyelvújítás
+  - Magyar Nyelvőr
+show_hero: true
+menu:
+  - title: Főoldal
+    url: /
+  - title: Rólunk
+    url: /about
+  - title: Kapcsolat
+    url: /contact
+  - title: RSS Feed
+    url: /feed.xml
+email: diakritikus@gmail.com
+# See: https://disqus.com/
+disqus_username: https://www-ujmagyar-hu
+# Contact Form Setting
+# See: https://formspree.io/
+formspree_form_id: mvodgnlk
+
+
+# Social Media Settings
+# Remove the item if you don't need it
+#github_username: github_username
+facebook_username: ujmagyar
+#twitter_username: ujmagyar
+#instagram_username: ujmagyar
+#linkedin_username: linkedin_username
+#medium_username: medium_username
+
+
+# Posts Settings
+show_time_bar: true
+show_modal_on_exit: false
+show_modal_on_finish_post: true
+two_columns_layout: true
+
+
+# Advanced Settings
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+google_analytics: "G-XC8BH9PVT0"
+language: "hu"
+categories_folder: category
+sent_message_url: "/contact/message-sent/"
+
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+collections:
+  authors:
+    output: true
+paginate_path: "/page/:num/"
+show_get_theme_btn: false
+use_logo: false
+
+# Content paginator
+paginate_content:
+  enabled: true
+  debug: false
+  collections:
+    - posts
+  auto: false
+  separator: "--page-break--"
+  permalink: "/:num/"
+  seo_canonical: true
+  properties:
+    part:
+      is_generated: true
+    last:
+      is_generated: true
+    single:
+      is_generated: true
+
+# SASS
+sass:
+  style: compressed
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-paginate-content
+
+# Exclude my node related stuff
+exclude: [
+  'package.json',
+  'package-lock.json',
+  'src',
+  'node_modules',
+  'initpost.sh',
+  'Gemfile',
+  'Gemfile.lock',
+  'gulpfile.js',
+  'README.md'
+]
+
+# Theme
+version: v3.1.1

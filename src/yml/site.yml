@@ -1,0 +1,59 @@
+name: Újmagyar
+title: Újmagyar | Hétköznapi nyelvművelők közössége -=- kommentelni ér, gondolkodni kötelező!
+description: Alakítsuk tudatosan a nyelvünket nap mint nap, mert a nyelvünk alakítja a mindennapjainkat.
+tags:
+  - blog
+  - fórum
+  - forum
+  - közösség
+  - community
+  - nyelv
+  - language
+  - Hunglish
+  - nyelvművelés
+  - nyelvművelő
+  - nyelvművelők
+  - Mézga Család
+  - MZ/X
+  - Mézga Aladár
+  - Paula
+  - Mézga Kriszta
+  - Mézga Géza
+  - Máris szomszéd
+  - Blöki
+  - Maffia
+  - Kompót
+  - Öcsi
+  - köbüki
+  - újmagyar nyelv
+  - gondolatátvivő kézi készülék
+  - időkibővítő
+  - fényposta
+  - Hufnágel Pisti
+  - egy forintért megmondom
+  - Romhányi József
+  - nyelvújítás
+  - hétköznapi
+  - mindennapi
+  - Álljunk meg egy szóra
+  - Grétsy László
+  - Kazinczy Ferenc
+  - Bessenyei György
+  - nyelvújítás
+  - Magyar Nyelvőr
+show_hero: true
+menu:
+  - title: Főoldal
+    url: /
+  - title: Rólunk
+    url: /about
+  - title: Kapcsolat
+    url: /contact
+  - title: RSS Feed
+    url: /feed.xml
+email: diakritikus@gmail.com
+# See: https://disqus.com/
+disqus_username: https://www-ujmagyar-hu
+# Contact Form Setting
+# See: https://formspree.io/
+formspree_form_id: mvodgnlk
